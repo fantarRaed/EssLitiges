@@ -20,7 +20,7 @@ function addDonation(name, amount) {
     // Add new donor to the list
     const donorList = document.getElementById('donor-list');
     const newDonation = document.createElement('li');
-    newDonation.textContent = `${name} - ${amount} Dinars`;
+    newDonation.textContent = ` ${name} - ${amount} دينار`;
     donorList.appendChild(newDonation);
 }
 
@@ -32,8 +32,8 @@ updateDonationStats();
 addDonation('Ali Zayati', 200); // Example donation
 addDonation('Damine', 200); // Example donation
 addDonation('Raed Fantar', 100); // Example donation
-addDonation('Ali Zayati', 200); // Example donation
-addDonation('Ali Zayati', 200); // Example donation
+addDonation('علي الزياتي', 200); // Example donation
+addDonation('علي الزياتي', 200); // Example donation
 addDonation('Ali Zayati', 200); // Example donation
 addDonation('Ali Zayati', 200); // Example donation
 addDonation('Ali Zayati', 200); // Example donation
