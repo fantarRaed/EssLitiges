@@ -29,17 +29,20 @@ updateDonationStats();
 
 // Example usage:
 // Add a new donation
-addDonation('فراس الميلادي', 200); // Example donation
-addDonation('محمد النايلي', 200); // Example donation
-addDonation('على الزياتي', 200); // Example donation
-addDonation('إسكندر البصلي', 200); // Example donation
-addDonation('على حمد', 50); // Example donation
-addDonation('حسين التومية', 100); // Example donation
-addDonation('توفيق البصلي', 100); // Example donation
-addDonation('حسام عمارة', 165); // Example donation
-addDonation('زين كشيدة', 100); // Example donation
-addDonation('وليد صالح', 50); // Example donation
-addDonation('مروان الممي', 50); // Example donation
+
+/* 17/02 */ 
+addDonation('محمد علي القاتي', 500); 
+addDonation('فراس الميلادي', 200); 
+addDonation('محمد النايلي', 200); 
+addDonation('على الزياتي', 200); 
+addDonation('إسكندر البصلي', 200); 
+addDonation('على حمد', 50); 
+addDonation('حسين التومية', 100); 
+addDonation('توفيق البصلي', 100); 
+addDonation('حسام عمارة', 165); 
+addDonation('زين كشيدة', 100); 
+addDonation('وليد صالح', 50); 
+addDonation('مروان الممي', 50); 
 addDonation('امين السوسي',20);
 addDonation('امحمد الشملي',80);
 addDonation('سفيان الناقس',150);
@@ -84,6 +87,30 @@ addDonation('فارس الهاني', 30);
 addDonation('محمد على حمزة', 50);
 addDonation('اشرف بن براهيم', 50);
 addDonation('نجيب القرديو', 100);
+
+/* 18/02 */
+
+addDonation('محمد كوزانة', 20);
+addDonation('محمد العوام', 20);
+addDonation('محمد الحاج خليفة', 20);
+addDonation('فاروق الغربي', 20);
+addDonation('ايمن الكعلى', 200);
+addDonation('رحمة فضلون', 50);
+addDonation('توفيق العارم', 20);
+addDonation('احمد ساسی', 50);
+addDonation('اياد الميلادي', 20);
+addDonation('حسين الغربي', 20);
+addDonation('عبد الرحيم بوغزالة', 100); 
+addDonation('ازر مغیث', 50); 
+addDonation('ضياء الصوفارجي', 20); 
+addDonation('انيس منصور', 150); 
+addDonation('احمد الاشهب', 100); 
+addDonation('محمود الدردوري', 100);
+addDonation('بدري الصيد', 5);
+addDonation('مروان الشرفي', 60);
+addDonation('رائد فنطر', 100);
+
+
 
 
 
