@@ -40,8 +40,6 @@ addDonation('إسكندر البصلي', 200);
 addDonation("سامي بن رمضان", 200);
 addDonation("خميس الزياتي", 100);
 addDonation("لمجد بلحاج خليفة", 100);
-addDonation("خميس الزياتي", 100);
-addDonation("لمجد بلحاج خليفة", 100);
 /* 17/02*/
 addDonation('على حمد', 50); 
 addDonation('حسين التومية', 100); 
