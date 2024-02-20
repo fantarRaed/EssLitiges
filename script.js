@@ -36,6 +36,13 @@ addDonation('فراس الميلادي', 200);
 addDonation('محمد النايلي', 200); 
 addDonation('على الزياتي', 200); 
 addDonation('إسكندر البصلي', 200); 
+/*20/02*/
+addDonation("سامي بن رمضان", 200);
+addDonation("خميس الزياتي", 100);
+addDonation("لمجد بلحاج خليفة", 100);
+addDonation("خميس الزياتي", 100);
+addDonation("لمجد بلحاج خليفة", 100);
+/* 17/02*/
 addDonation('على حمد', 50); 
 addDonation('حسين التومية', 100); 
 addDonation('توفيق البصلي', 100); 
@@ -50,7 +57,7 @@ addDonation('امين السوسي',100);
 addDonation('فهمي الدوس',50);
 addDonation('نبيل القيلوزي',300);
 addDonation('يوسف الديماسي',100);
-addDonation('بدر الدين الصيد',100);
+addDonation('بدر الدين الصيد',105);
 addDonation('عبد المجيد الصيد',50);
 addDonation('علاع الديماسي',100);
 addDonation('وسيم العربي',100);
@@ -106,9 +113,27 @@ addDonation('ضياء الصوفارجي', 20);
 addDonation('انيس منصور', 150); 
 addDonation('احمد الاشهب', 100); 
 addDonation('محمود الدردوري', 100);
-addDonation('بدري الصيد', 5);
 addDonation('مروان الشرفي', 60);
 addDonation('رائد فنطر', 100);
+
+/* 20/02*/
+
+// Add a new donation with the Arabic names
+
+addDonation("سيف الديماسي", 50);
+addDonation("محمد الشبيل", 40);
+addDonation("آدم قفصية", 50);
+addDonation("اسكندر الغربي", 50);
+addDonation("وجدي حسين", 30);
+addDonation("لطفي الصيد", 30);
+addDonation("أشرف New Look", 20);
+addDonation("صالح قم", 30);
+addDonation("مهدي بوغزالة", 10);
+addDonation("مراد محرز", 30);
+addDonation("الناصر الخروبي", 30);
+addDonation(" نجيب بوفروة", 30);
+
+
 
 
 
