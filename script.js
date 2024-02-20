@@ -131,7 +131,7 @@ addDonation("صالح قم", 30);
 addDonation("مهدي بوغزالة", 10);
 addDonation("مراد محرز", 30);
 addDonation("الناصر الخروبي", 30);
-addDonation(" نجيب بوفروة", 30);
+addDonation(" نجيب بوفروة", 50);
 
 
 
