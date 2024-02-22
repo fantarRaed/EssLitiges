@@ -181,15 +181,24 @@ img {
 }
 
 #total-amount, #donor-count {
-    font-size: 24px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
-    color: #fff; /* Text color */
-    padding: 10px 20px; /* Add padding */
-    border-radius: 5px; /* Add rounded corners */
+	font-size: 24px; /* Increase font size */
+	font-weight: bold; /* Make the text bold */
+	color: #fff; /* Text color */
+	padding: 10px 20px; /* Add padding */
+	border-radius: 5px; /* Add rounded corners */
 }
 
+#percentage {
+	color: red;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+
 #total-amount {
-    background-color: #f00; /* Blue background for total amount */
+		background-color: #f00; /* Blue background for total amount */
 }
 
 #donor-count {
@@ -197,10 +206,10 @@ img {
 }
 
 /* Add hover effect */
-#total-amount:hover, #donor-count:hover {
-    opacity: 0.8; /* Reduce opacity on hover */
-    cursor: pointer; /* Change cursor to pointer */
-}
+	#total-amount:hover, #donor-count:hover {
+		opacity: 0.8; /* Reduce opacity on hover */
+		cursor: pointer; /* Change cursor to pointer */
+	}
 
 /* Add animation */
 #total-amount, #donor-count {

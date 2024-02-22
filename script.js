@@ -2,12 +2,19 @@
 let donationCount = 0; // Example initial count
 let totalAmount = 0; // Example initial total amount
 
+
+
+
+
+
+
 // Function to update the donation count and total amount
 function updateDonationStats() {
     document.getElementById('donor-count').textContent = donationCount;
     document.getElementById('total-amount').textContent = totalAmount;
-
+    
 }
+
 
 // Function to add a new donation
 function addDonation(name, amount) {
@@ -15,6 +22,7 @@ function addDonation(name, amount) {
     donationCount++;
     // Add amount to total
     totalAmount += amount;
+    
     // Update UI
     updateDonationStats();
     // Add new donor to the list
@@ -22,16 +30,30 @@ function addDonation(name, amount) {
     const newDonation = document.createElement('li');
     newDonation.textContent = ` ${name} - ${amount} دينار`;
     donorList.appendChild(newDonation);
+   
 }
+
+console.log("Raeed " + totalAmount);
 
 // Update the UI with initial values
 updateDonationStats();
+
+
+
 
 // Example usage:
 // Add a new donation
 
 /* 17/02 */ 
 addDonation('محمد علي القاتي', 500); 
+
+/* 22/02*/
+addDonation('وسيم الزياتي', 500);
+addDonation('علاء الزياتي', 500);
+addDonation('ضياء القفصي (شناب)', 500);
+
+
+/*17/02*/ 
 addDonation('فراس الميلادي', 200); 
 addDonation('محمد النايلي', 200); 
 addDonation('على الزياتي', 200); 
@@ -130,6 +152,39 @@ addDonation("مهدي بوغزالة", 10);
 addDonation("مراد محرز", 30);
 addDonation("الناصر الخروبي", 30);
 addDonation(" نجيب بوفروة", 50);
+
+/* 22/02*/
+addDonation('مروان نطاط', 30);
+addDonation('صالح قرن', 80);
+addDonation('أحمد المعلال', 150);
+addDonation('سهيل التركي', 20);
+addDonation('عزيز الزياتي (روتانا)', 50);
+addDonation('نزار غويلة', 20);
+addDonation('حبيب الحذيري', 10);
+addDonation('محمد النافض', 50);
+addDonation('أحمد ماما', 20);
+addDonation('وائل الزارد', 30);
+addDonation('أمين المعلال', 10);
+addDonation('أحمد ماما عادل', 60);
+addDonation('حسين الذوادي', 40);
+addDonation('رفيق ماضي', 60);
+addDonation(' محمد الميلادي ', 20);
+
+// Function to calculate and display the percentage
+function calculateAndDisplayPercentage() {
+    const totalPercentage = (totalAmount / 20000) * 100; // Calculate the percentage
+    const roundedPercentage = totalPercentage.toFixed(2); // Round the percentage to two decimal places
+    document.getElementById('percentage').textContent = `(${roundedPercentage}%)`; // Display the percentage in the element
+}
+calculateAndDisplayPercentage();
+
+
+
+
+
+
+
+
 
 
 
